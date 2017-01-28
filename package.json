@@ -1,0 +1,39 @@
+{
+  "name": "lesson3b",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.5.0"
+  },
+  "description": "please use **npm install** to install project dependencies",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SelinaDaley/COMP308-w2017-Lab1.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "EJS"
+  ],
+  "author": "Selina Daley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SelinaDaley/COMP308-w2017-Lab1/issues"
+  },
+  "homepage": "https://github.com/SelinaDaley/COMP308-w2017-Lab1#readme"
+}
