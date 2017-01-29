@@ -8,7 +8,7 @@ currentDate = currentDate.toLocaleTimeString();
 /* GET home page. wildcard */
 router.get('/', (req, res, next) => {
   res.render('index', { 
-    title: 'Express', 
+    title: 'Home', 
     date: currentDate
   });
 });
