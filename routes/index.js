@@ -20,4 +20,11 @@ router.get('/about', (req, res, next) => {
   });
 });
 
+/* GET contact page. */
+router.get('/contact', (req, res, next) => {
+  res.render('contact', { 
+    title: 'Contact'
+  });
+});
+
 module.exports = router;
